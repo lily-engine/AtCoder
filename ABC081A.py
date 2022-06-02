@@ -5,13 +5,10 @@ l = input()
 print(l.count('1'))
 
 
-# 山岡さんパターン
+# 別パターン
 # s = str(input())
-
 # count = 0
-
 # for i in range(3):
 #     if s[i] == "1":
 #         count += 1
-
 # print(count)
