@@ -12,6 +12,7 @@ def immigration():
         if i % 2 == 0:
             if i % 3 != 0 and i % 5 != 0:
                 answer = "DENIED"
+                break
     print(answer)
 
 immigration()
