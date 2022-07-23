@@ -8,6 +8,7 @@ for i in range(m):
     if b[i] not in a:
         answer = "No"
         break
+    # aの中にbの長さがあれば、以下の処理のみ実行。
     a.remove(b[i])
 
 print(answer)
